@@ -38,6 +38,6 @@ foreach ($errorDetails as $detail) {
 if (empty($errorDetails)) {
     echo "Success" . PHP_EOL;
 } else {
-    echo 'Fail' . PHP_EOL;
+    echo 'Failure' . PHP_EOL;
     exit(1);
 }
